@@ -10,9 +10,10 @@ dictionary (optional, advanced) - customised starting dictionary for compression
 Output (lzw_encode):
 result - encoded list of ints
 dictionary - dict object used to compress the full sequence with entries:
-  k : i
-  k - k-mer
-  i - integer code
+
+k : i
+k - k-mer
+i - integer code
 
 
 Ambiguous IUPAC symbols are assigned a compatible base pair identity at random.
