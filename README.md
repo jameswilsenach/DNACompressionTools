@@ -11,8 +11,10 @@ Output (lzw_encode):
 result - encoded list of ints
 dictionary - dict object used to compress the full sequence with entries:
 
-k : i
+dictionary[k] = i
+
 k - k-mer
+
 i - integer code
 
 
