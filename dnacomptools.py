@@ -28,7 +28,9 @@ def handle_amb(B):
     elif B == 'Y':
         return ('C','T')
     elif B == 'N':
-        return BASE_PAIRS   
+        return BASE_PAIRS
+    elif B == 'U':
+        return ('T')
     
 
 def generate_padded_strings(length):
