@@ -15,9 +15,7 @@ Output (lzw_encode):
 
 result - encoded list of ints
 
-dictionary - dict object used to compress the full sequence with entries:
-
-dictionary[k] = i
+dictionary - dict object used to compress the full sequence, structured dictionary[k] = i with:
 
 k - k-mer
 
